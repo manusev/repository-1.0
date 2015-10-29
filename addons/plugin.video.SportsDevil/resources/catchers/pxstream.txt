@@ -1,0 +1,21 @@
+item_info_name=title
+item_info_from=@PARAM1@
+item_info_build=Proyecto Luz Digital - %s
+
+item_info_name=pageUrl
+item_info_from=@PARAM1@
+item_info_build=http://pxstream.tv/embed.php?file=%s&width=730&height=430&jwplayer=flash
+
+item_info_name=tmp
+item_info_from=pageUrl
+item_info_convert=getInfo('%s','.*?['"]*streamer[:,]\s*['"]([^'"]+).*?file[:,]\s*['"]([^'"]+).*?','@REFERER@','rtmp.tmp|file')
+item_info_build=%s
+
+item_info_name=rtmp
+item_info_from=rtmp.tmp
+item_info_convert=replace('%s','/load',':443/load')
+item_info_build=%s
+
+item_info_name=url
+item_info_from=rtmp + ' playpath=' + file + ' swfUrl=http://pxstream.tv/player510.swf live=1 token=#ed%h0#w@1 timeout=14 swfVfy=1 pageUrl=' + pageUrl
+item_info_build=%s
