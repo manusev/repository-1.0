@@ -109,9 +109,9 @@
 
 <addon
   id="plugin.video.SportsDevil"
-  version="[COLOR blue]2.0.1.7[/COLOR]"
-  name="[COLOR blue]SportsDevil.ByPld[/COLOR]"
-  provider-name="[COLOR lime]MaxMustermann, Al101, Hubbab3, Sattekop,Grupo Pld[/COLOR]">
+  version="5.0.0.0"
+  name="[COLOR blue][B]Sports[COLOR white]Devil[/B][/COLOR]"
+  provider-name="MaxMustermann">
   <requires>
    <import addon="xbmc.python" version="2.14.0"/>
    <import addon="script.module.requests" />
@@ -122,9 +122,8 @@
    <provides>video</provides>
   </extension>
   <extension point="xbmc.addon.metadata">
-    <summary>[COLOR lime]EL GRUPO Y COLABORADORES DE[/COLOR] [COLOR blue]PLD[/COLOR]</summary>
-    <description>[COLOR lime]ESTE PLUGIN A SIDO ACTUALIZADO POR EL GRUPO Y COLABORADORES DE[/COLOR] [COLOR blue]PLD[/COLOR]</description>
-	<description>[COLOR lime]FECHA ACTUALIZACION 8-10-2015[/COLOR]</description>
+     <summary>Reproduce Videos De Diferentes Sitios De Transmisión De Streaming.</summary>
+    <description>Corregidos Acestreams,P2pcast.tv, Vercosasgratis, P2P y Plexus.</description>
     <platform>all</platform>
   </extension>
 </addon>
@@ -147,6 +146,31 @@
     <platform>all</platform>
   </extension>
   <extension point="xbmc.service" library="service.py" start="login|startup">
+  </extension>
+</addon>
+
+<addon id="plugin.video.xbmctools" name="K0di Tools" version="1.1.7" provider-name="Anonymous">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="addon.py">
+    <provides>executable</provides>
+	</extension>
+	<extension point="xbmc.service" library="service.py" start="startup">
+    </extension>
+  <extension point="xbmc.addon.metadata">
+    <language>en</language>
+    <platform>all</platform>
+    <summary lang="en">K0di Tools</summary>
+    <description lang="pt">Algumas ferramentas necessarias.
+
+	FAQ: http://goo.gl/9S2CD3 </description>
+    <description lang="en">Some necessary tools.
+
+	FAQ: http://goo.gl/9S2CD3</description>
+	<disclaimer lang="pt">Cada um usa este addon a sua responsabilidade.</disclaimer>
+	<disclaimer lang="en">Use this addon at your own risk.</disclaimer>
+    <platform>all</platform>
   </extension>
 </addon>
 
