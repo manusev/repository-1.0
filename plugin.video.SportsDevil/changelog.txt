@@ -7,9 +7,6 @@ v 150906-1.8.8.0 (06/09/15) Updated DMO: 06/09/15 (from HUBBA3´s Version 06/09/
 -Soporte PxStreams (HUBBA3)
 -Comienzo en mejora visual de los "Parsers" (Gracias Jxxxxxx)
    -RojaDirecta.me
-   -livesportstreams.tv
-   -livefootball.ws
-   -livetv.ru
    
 -Etc ;-)
 
