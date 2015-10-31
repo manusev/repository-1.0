@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="repository.video.kuchi" name="kuchitv official Repo" version="1.0" provider-name="Kuchitv">
+	<extension point="xbmc.addon.repository" name="Kuchitv official Repo">
+		<info compressed="false">https://raw.github.com/manusev/repository-1.0/master/addons.xml</info>
+		<checksum>https://raw.github.com/manusev/repository-1.0/master/addons.xml.md5</checksum>
+		<datadir zip="true">https://raw.github.com/manusev/repository-1.0/master</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>Kuchitv official Repo</summary>
+   		<description lang="en">Instala los Addons de Kuchitv.</description>
+		<disclaimer></disclaimer>
+		<platform>all</platform>
+	</extension>
+</addon>
