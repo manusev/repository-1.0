@@ -109,9 +109,9 @@
 
 <addon
   id="plugin.video.SportsDevil"
-  version="5.0.0.0"
-  name="[COLOR blue][B]Sports[COLOR white]Devil[/B][/COLOR]"
-  provider-name="MaxMustermann">
+  version="2015.11.01.2"
+  name="SportsDevil"
+  provider-name="MaxMustermann,Al101,Hubbab3,Sattekop">
   <requires>
    <import addon="xbmc.python" version="2.14.0"/>
    <import addon="script.module.requests" />
@@ -122,8 +122,8 @@
    <provides>video</provides>
   </extension>
   <extension point="xbmc.addon.metadata">
-     <summary>Reproduce Videos De Diferentes Sitios De Transmisión De Streaming.</summary>
-    <description>Corregidos Acestreams,P2pcast.tv, Vercosasgratis, P2P y Plexus.</description>
+    <summary>Play videos of different sports streaming sites</summary>
+    <description>Play videos of different sports streaming sites</description>
     <platform>all</platform>
   </extension>
 </addon>
