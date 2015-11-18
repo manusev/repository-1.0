@@ -1,3 +1,36 @@
+v 150906-1.8.8.0 (06/09/15) Updated DMO: 06/09/15 (from HUBBA3´s Version 06/09/2015)
+-------------------------------------------------------------------------------
+-Cambiada Numeración de Versión para evitar Actualizaciones de Repositorios.
+-Arreglados los p2pCast.tv (Goldonx)
+-Fix para arreglar Streamify.tv (Goldonx)
+-Arreglados VerCosasGratis Embebidos (Goldonx)
+-Soporte PxStreams (HUBBA3)
+-Comienzo en mejora visual de los "Parsers" (Gracias Jxxxxxx)
+   -RojaDirecta.me
+   
+-Etc ;-)
+
+v 1.8.8.0 (25-08-15) Updated DMO: 25/08/2015 (from HUBBA3´s Version 22/08/2015)
+-------------------------------------------------------------------------------
+Soporte para p2p con Plugin PLEXUS (DMO)
+
+
+v 1.8.8.0 (22-08-15) Updated DMO: 23/08/2015 (from HUBBA3´s Version)
+-------------------------------------------------------------------
+- Fix para Janjua (Goldonx)
+-HUBBA3 (Thank you so much):
+  -Nuevos Players yotv, coolcast... y Otros.
+  -Arreglados tvmsn y hdcast de mamahd
+
+v 1.8.8.0 (08-08-15) Updated DMO: 08/08/2015 (from HUBBA3´s Version)
+-------------------------------------------------------------------
+- Corregidos Acestreams
+- Funcionan los p2pcast.tv (ya no hace falta que sean embebidos, pueden ser de la propia web directamente)(Gracias Goldonx!!)
+- Arreglados los MIPS
+- Incluidas llamadas a los 'vercosasgratis'
+- Arreglados de nuevo los Businessapp1-Dynozap
+- Incluidos los tv-msn.com (Gracias Goldonx!!)
+
 v 1.8.8.0 (17-Oct-14)
 ------------------------------
 - Fix: iLive (thanks to L2501)
