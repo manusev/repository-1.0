@@ -46,26 +46,6 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.blackbox.movie" name="[COLOR blue][B]Black [COLOR white]Box [COLOR blue]Movie[/B][/COLOR]" version="0.3.0" provider-name="Portal Black Box TV">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-    <import addon="script.module.requests" />
-    <import addon="plugin.video.youtube" />
-	<import addon="script.module.youtube.dl" optional="true"/>
-	<import addon="plugin.video.SportsDevil" optional="true"/>
-	<import addon="plugin.video.p2p-streams" optional="true"/>
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="default.py">
-        <provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary lang="en">Portal Black Box TV</summary>
-    <description lang="en">[COLOR blue][B]Versión Privada Plugin Black Box Movie.[/B][/COLOR]</description>
-    <disclaimer lang="en">[COLOR red][B]Queda Prohibida La Distribución De Este Plugin.[/B][/COLOR]</disclaimer>
-    <platform>all</platform>
-  </extension>
-</addon>
-
 <addon id="plugin.video.monstertv" name="[COLOR green]MonsterTV[/COLOR]" version="1.0.0.5" provider-name="Juarrox">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -158,9 +138,9 @@
 
 <addon
   id="plugin.video.SportsDevil"
-  version="5.0.0.0"
-  name="[COLOR blue][B]Sports[COLOR white]Devil[/B][/COLOR]"
-  provider-name="MaxMustermann">
+  version="[COLOR blue]2.0.2.1[/COLOR]"
+  name="[COLOR blue]SportsDevil.ByPld[/COLOR]"
+  provider-name="[COLOR lime]MaxMustermann, Al101, Hubbab3, Sattekop,Grupo Pld[/COLOR]">
   <requires>
    <import addon="xbmc.python" version="2.14.0"/>
    <import addon="script.module.requests" />
@@ -171,8 +151,9 @@
    <provides>video</provides>
   </extension>
   <extension point="xbmc.addon.metadata">
-     <summary>Reproduce Videos De Diferentes Sitios De Transmisión De Streaming.</summary>
-    <description>Corregidos Acestreams,P2pcast.tv, Vercosasgratis, P2P y Plexus.</description>
+    <summary>[COLOR lime]EL GRUPO Y COLABORADORES DE[/COLOR] [COLOR blue]PLD[/COLOR]</summary>
+    <description>[COLOR lime]ESTE PLUGIN A SIDO ACTUALIZADO POR EL GRUPO Y COLABORADORES DE[/COLOR] [COLOR blue]PLD[/COLOR]</description>
+	<description>[COLOR lime]FECHA ACTUALIZACION 8-10-2015[/COLOR]</description>
     <platform>all</platform>
   </extension>
 </addon>
@@ -257,6 +238,24 @@
 		<website>http://www.youtube.com</website>
 		<email>bromix at gmx dot net</email>
 		<source>https://github.com/bromix/plugin.video.youtube</source>
+	</extension>
+</addon>
+
+<addon id="plugin.video.Pld-Stalker" name="[COLOR lime]Pld-Stalker[/COLOR]" version="[COLOR lime]1.0.1[/COLOR]" provider-name="[COLOR lime]GupoPLD[/COLOR]">
+    <requires>
+		<import addon="xbmc.python" version="2.14.0"/>
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="addon.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.service" library="server.py" start="startup" />
+	<extension point="xbmc.addon.metadata">
+		<platform>all</platform>
+		<summary lang="en">[COLOR lime]Pld-Stalker[/COLOR]</summary>
+		<description lang="en">[COLOR lime]MAS DE 800 CANALES IPTV DE TODO EL MUNDO DISFRUTEN DE ESTE CONTENIDO. RECUERDEN NO ME HAGO RESPONSABLE DE LO QUE HAGAN CON ESTE ADDON[/COLOR]</description>
+		<license>GNU General Public License, v2</license>
+		<language></language>
+
 	</extension>
 </addon>
 

@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.Pld-Stalker" name="[COLOR lime]Pld-Stalker[/COLOR]" version="[COLOR lime]1.0.1[/COLOR]" provider-name="[COLOR lime]GupoPLD[/COLOR]">
+    <requires>
+		<import addon="xbmc.python" version="2.14.0"/>
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="addon.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.service" library="server.py" start="startup" />
+	<extension point="xbmc.addon.metadata">
+		<platform>all</platform>
+		<summary lang="en">[COLOR lime]Pld-Stalker[/COLOR]</summary>
+		<description lang="en">[COLOR lime]MAS DE 800 CANALES IPTV DE TODO EL MUNDO DISFRUTEN DE ESTE CONTENIDO. RECUERDEN NO ME HAGO RESPONSABLE DE LO QUE HAGAN CON ESTE ADDON[/COLOR]</description>
+		<license>GNU General Public License, v2</license>
+		<language></language>
+	
+	</extension>
+</addon>
