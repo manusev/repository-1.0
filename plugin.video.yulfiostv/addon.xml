@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.Yulfiostv"
+       name="[B][COLOR cornflowerblue]  YULFIOS[/COLOR][COLOR lime]TV[/COLOR]3.0[/B]"
+       version="3.0"
+       provider-name="[COLOR cornflowerblue]YULFIOS[/COLOR][COLOR lime]TV[/COLOR]">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.beautifulsoup" version="3.2.1"/>
+    <import addon="script.module.simple.downloader" version="0.9.4"/>
+    <import addon="script.module.beautifulsoup4" />
+    <import addon="script.module.requests" />
+    <import addon="script.module.httplib2" />
+    <import addon="script.module.youtube.dl" optional="true"/>
+    <import addon="plugin.video.youtube" />
+    <import addon="script.module.urlresolver" optional="true"/>
+    <import addon="script.module.simplejson" />    
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>Yulfiostv entretenimiento y diversion sin Fin!!!</summary>
+    <description>YulfiosTv  el addon Latino para asegurar tu diversión, aquí encontraras lo que mejor en: deportes, noticias, telenovelas, series, películas, música y mas contenidos en espanol ,ingles y otros.
+Conócenos te encantara, si necesitas tutoriales para esta gama de entretenimiento visita nuestra página: https://www.facebook.com/groups/yulfiostv
+https://yulfiostv.wordpress.com </description>
+   <platform>all</platform>
+  </extension>
+</addon>
