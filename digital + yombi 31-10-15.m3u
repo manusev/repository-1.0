@@ -1,0 +1,238 @@
+#EXTM3U:
+#EXTINF:-1,[COLOR yellow]--- DIGITAL+ESPANA YOMBI---[/COLOR]
+http://0.0.0.0:0000
+
+#EXTINF:-1,[COLOR red]---YOMBI---[/COLOR]
+http://0.0.0.0:0000
+
+#EXTINF: -0, Rtve
+
+http://iphonelive.rtve.es/LA2_LV3_IPH/bitrate_2.m3u8
+
+#EXTINF: -0, Antena 3
+
+http://a3live-lh.akamaihd.net/i/antena3_1@35248/master.m3u8
+
+
+#EXTINF: -0, La Sexta
+
+http://a3live-lh.akamaihd.net/i/lasexta_1@35272/master.m3u8
+
+#EXTINF:-0 site_id="tv-p.-asturias" tvg-logo="http://corporativo.rtpa.es/img/logotipo_rtpa_top.png",TV.p Asturias
+http://iphone.rtpa.stream.flumotion.com/rtpa/tv-iphone/main.m3u8
+
+#EXTINF:-0 site_id="ANTV" tvg-logo="canal-sur-andalucia.png",Canal Sur
+http://iphone-andaluciatelevision.rtva.stream.flumotion.com/rtva/andaluciatelevision-iphone-multi/main.m3u8
+
+#EXTINF:-0 tvg-name="La 1" tvg-logo="nickelodeon.png" ,Nickelodeon
+rtmp://31.220.0.12/pull/nick78?keys=01pCIusovf5l00beGT6-Jw&keyt=1443276167 swfUrl=http://files.leton.tv/jwplayer.flash.swf live=1 pageUrl=http://leton.tv/
+ 
+#EXTINF:-0 tvg-name="La 1" tvg-logo="LOGO-PANDA.png",Canal Panda
+rtmp://31.220.40.61/pull/panda51?keys=dfE8J-bE1Qyyr5tAHFJBmg&keyt=1443276254 swfUrl=http://files.leton.tv/jwplayer.flash.swf live=1 pageUrl=http://leton.tv/
+ 
+#EXTINF:-0 tvg-name="La 1" tvg-logo="canalplus_liga_hd.png" ,C+ LIGA
+rtmp://31.220.40.61/pull/ligaplus?keys=QnYfTXZ96_vNEHg2BAHaZA&keyt=1443272623 swfUrl=http://files.leton.tv/jwplayer.flash.swf live=1 pageUrl=http://leton.tv/
+ 
+ 
+#EXTINF:-0 tvg-name="La 1" tvg-logo="C+_Liga_2.png" ,C+ LIGA 2
+rtmp://31.220.0.134/pull/liga258?keys=fcYcc1wKKoFf-1GwxzkD9w&keyt=1443747981 swfUrl=http://files.leton.tv/jwplayer.flash.swf live=1 pageUrl=http://leton.tv/
+ 
+#EXTINF:-0 tvg-name="La 1" tvg-logo="canalplus_deportes_hd-300x127.png",C+ DEPORTE
+rtmp://31.220.40.40/pull/deportes16?keys=9DemzM-fHBveK3_PFeYbuw&keyt=1443272732 swfUrl=http://files.leton.tv/jwplayer.flash.swf live=1 pageUrl=http://leton.tv/
+ 
+#EXTINF:-0 tvg-name="La 1" tvg-logo="cpd2.png" ,C+ DEPORTES 2
+rtmp://31.220.40.61/pull/deportes26?keys=CQ3UnfJWSbEv0gBtIkghiA&keyt=1443272822 swfUrl=http://files.leton.tv/jwplayer.flash.swf live=1 pageUrl=http://leton.tv/
+ 
+ 
+ 
+#EXTINF:-0 site_id="MV1" tvg-logo="29vme6e.png",C+ Estrenos
+rtmp://31.220.2.57/pull/estrenos258?keys=lw1SchAIVqWfWLYRDCGFeg&keyt=1443749048 swfUrl=http://files.leton.tv/jwplayer.flash.swf live=1 pageUrl=http://leton.tv/
+ 
+ 
+ 
+ 
+#EXTINF:-0 site_id="CPCOLE" tvg-logo="500px-Canal+_DCine_2008.svg.png",C+ DCine
+rtmp://31.220.0.194/pull/159dcine?keys=VSyEFKByNYpANXptg0bn0g&keyt=1443270924 swfUrl=http://files.leton.tv/jwplayer.flash.swf live=1 pageUrl=http://leton.tv/
+ 
+ 
+ 
+#EXTINF:-0 tvg-name="yombi" tvg-logo="càccion.png",C+ Accion
+rtmp://31.220.0.204/pull/accpls?keys=OwGk5mEbLJujLJKZ3L2MFA&keyt=1443277151 swfUrl=http://files.leton.tv/jwplayer.flash.swf live=1 pageUrl=http://leton.tv/
+ 
+ 
+ 
+#EXTINF:-0 tvg-name="La 1" tvg-logo="cpcome.png",C+ Comedia
+rtmp://31.220.0.82/pull/comed236?keys=J114g05QrtZkGXgzhu-ivQ&keyt=1443277086 swfUrl=http://files.leton.tv/jwplayer.flash.swf live=1 pageUrl=http://leton.tv/
+ 
+ 
+#EXTINF:-0 tvg-name="La 1" tvg-logo="Rcgtmcyq.png" group-title="Televisión Digital Terreste",C+ Xtra
+rtmp://31.220.2.56/pull/plusxtra?keys=skfjhgmaOEDsfZa4wDKhEQ&keyt=1443271036 swfUrl=http://files.leton.tv/jwplayer.flash.swf live=1 pageUrl=http://leton.tv/
+  
+#EXTINF:-0 tvg-name="La 1" tvg-logo="DCine_Español.png",DCine Espanol
+rtmp://31.220.0.196/pull/dcinees?keys=yYInylptb2_w3ouIcIa-9g&keyt=1443272274 swfUrl=http://files.leton.tv/jwplayer.flash.swf live=1 pageUrl=http://leton.tv/
+ 
+#EXTINF:-0 tvg-name="La 1" tvg-logo="amclogo4__140305172543.png",AMC
+rtmp://31.220.0.196/pull/ammc?keys=yYInylptb2_w3ouIcIa-9g&keyt=1443272274 swfUrl=http://files.leton.tv/jwplayer.flash.swf live=1 pageUrl=http://leton.tv/
+
+ 
+#EXTINF:-0 tvg-name="La 1" tvg-logo="Canal_Hollywood_HD.png",Hollywood
+rtmp://31.220.2.54/pull/235hollywood?keys=7U98UyIDZdzNCQweSaxpXA&keyt=1443272364 swfUrl=http://files.leton.tv/jwplayer.flash.swf live=1 pageUrl=http://leton.tv/
+ 
+ 
+ 
+#EXTINF:-0 tvg-name="La 1" tvg-logo="Sundance630.png",Sundance Channel
+rtmp://31.220.2.54/pull/sundance14?keys=7U98UyIDZdzNCQweSaxpXA&keyt=1443272364 swfUrl=http://files.leton.tv/jwplayer.flash.swf live=1 pageUrl=http://leton.tv/
+ 
+ 
+#EXTINF:-0 tvg-name="La 1" tvg-logo="fox classics.png",Fox
+rtmp://31.220.2.56/pull/fox623?keys=U3YU2tmRp5UhkSvfZSF9Hg&keyt=1443273510 swfUrl=http://files.leton.tv/jwplayer.flash.swf live=1 pageUrl=http://leton.tv/
+ 
+ 
+ 
+#EXTINF:-0 tvg-name="La 1" tvg-logo="fox life.png",Fox life
+rtmp://31.220.40.62/pull/foxlife20?keys=rZNiLcEkz_-1I0HJZYJMmg&keyt=1443273561 swfUrl=http://files.leton.tv/jwplayer.flash.swf live=1 pageUrl=http://leton.tv/
+ 
+ 
+ 
+#EXTINF:-0 tvg-name="La 1" tvg-logo="axn hd.png",AXN
+rtmp://80.82.64.248/pull playpath=axn9?keys=Xev00ISKIgUeZEZ_vBzkuw&keyt=1444699711 swfUrl=http://files.leton.tv/jwplayer.flash.swf live=1 pageUrl=http://leton.tv/
+ 
+ 
+#EXTINF:-0 tvg-name="La 1" tvg-logo="AXN_White_HD.png",AXN White
+rtmp://31.220.0.60/pull/axnw6?keys=cbXbK3jEJP_74qx2gGg3vw&keyt=1443273711 swfUrl=http://files.leton.tv/jwplayer.flash.swf live=1 pageUrl=http://leton.tv/
+ 
+ 
+ 
+#EXTINF:-0 tvg-name="La 1" tvg-logo="tnt hd.png",TNT
+rtmp://80.82.78.75/pull/tnt369?keys=MHK659iyNpfZevgiOxzdiQ&keyt=1443273809 swfUrl=http://files.leton.tv/jwplayer.flash.swf live=1 pageUrl=http://leton.tv/
+ 
+ 
+#EXTINF:-0 tvg-name="La 1" tvg-logo="tnt hd.png",TNT
+rtmp://31.220.40.40/pull/ playpath=tnt369?keys=MxK8Lb10jNtqXOS5FrPSQg&keyt=1443557895 swfUrl=http://files.leton.tv/jwplayer.flash.swf live=1 pageUrl=http://leton.tv
+ 
+ 
+#EXTINF:-0 tvg-name="La 1" tvg-logo="syfy.png",SYFY
+rtmp://149.255.39.10/pull/syfy258?keys=t_Hjn7PrSaEcPjO7dxidCQ&keyt=1443273841 swfUrl=http://files.leton.tv/jwplayer.flash.swf live=1 pageUrl=http://leton.tv/
+ 
+ 
+#EXTINF:-0 tvg-name="La 1" tvg-logo="cosmopolitan_tv_es_hd.png",Cosmopolitan
+rtmp://31.220.2.52/pull/cosmo78?keys=niyqfA0AExZVgLjSJimarQ&keyt=1443273904 swfUrl=http://files.leton.tv/jwplayer.flash.swf live=1 pageUrl=http://leton.tv/
+ 
+#EXTINF:-0 tvg-name="La 1" tvg-logo="canal39.png" group-title=",Calle 13
+rtmp://31.220.40.61/pull/calle1396?keys=cgvGsfBRjWIWG4Iktvh8IA&keyt=1443276951 swfUrl=http://files.leton.tv/jwplayer.flash.swf live=1 pageUrl=http://leton.tv/
+ 
+ 
+#EXTINF:-0 tvg-name="La 1" tvg-logo="paramount.png",Paramount Comedy
+rtmp://31.220.0.12/pull/comedycentral3?keys=2P0dnLcUj7m1duZheJEdsA&keyt=1443273949 swfUrl=http://files.leton.tv/jwplayer.flash.swf live=1 pageUrl=http://leton.tv/
+ 
+ 
+ 
+#EXTINF:-0 tvg-name="La 1" tvg-logo="mtv.png",MTV ESPANA
+rtmp://31.220.40.41/pull/mtv125?keys=xO5xPN5EXp6PIG7HiobYHA&keyt=1443274118 swfUrl=http://files.leton.tv/jwplayer.flash.swf live=1 pageUrl=http://leton.tv/
+ 
+#EXTINF:-0 tvg-name="La 1" tvg-logo="Discovery Channel HD.png",Discovery Channel
+rtmp://31.220.0.72/pull/discovery1?keys=UpzcvgzQkK4hKxE2bG4hpg&keyt=1443276407 swfUrl=http://files.leton.tv/jwplayer.flash.swf live=1 pageUrl=http://leton.tv/
+ 
+ 
+#EXTINF:-0 tvg-name="La 1" tvg-logo="Discovery Channel HD.png",Discovery Channel
+rtmp://31.220.40.61/pull playpath=discovery1?keys=3YWUhshwrnXGVg3VS54mXQ&keyt=1444728610 swfUrl=http://files.leton.tv/jwplayer.flash.swf live=1 pageUrl=http://leton.tv/
+ 
+ 
+ 
+#EXTINF:-0 tvg-name="La 1" tvg-logo="natgeo.png",Nat Geographic
+rtmp://31.220.2.56/pull/natgeo36?keys=hycHX2TkFjXvIkPin-OBfw&keyt=1443276529 swfUrl=http://files.leton.tv/jwplayer.flash.swf live=1 pageUrl=http://leton.tv/
+ 
+ 
+#EXTINF:-0 tvg-name="La 1" tvg-logo="natgeo-wild.png",Nat Geo Wild
+rtmp://31.220.0.139/pull/natgeowilde?keys=q0_Lrhaw2emq11zj0BEl9A&keyt=1443276608 swfUrl=http://files.leton.tv/jwplayer.flash.swf live=1 pageUrl=http://leton.tv/
+ 
+ 
+ 
+#EXTINF:-0 tvg-name="La 1" tvg-logo="history hd.png",Historia
+rtmp://31.220.40.59/pull/historia45?keys=R5pF6_3vyWNC4NjQnEgCaQ&keyt=1443276633 swfUrl=http://files.leton.tv/jwplayer.flash.swf live=1 pageUrl=http://leton.tv/
+ 
+ 
+#EXTINF:-0 tvg-name="La 1" tvg-logo="viajarlogo.png",Viajar
+rtmp://31.220.0.139/pull/viajando?keys=SgJ1fhTw4OCiIakrc2P4ZQ&keyt=1443276660 swfUrl=http://files.leton.tv/jwplayer.flash.swf live=1 pageUrl=http://leton.tv/
+ 
+ 
+#EXTINF:-0 tvg-name="La 1" tvg-logo="qzmxl0ms41paxqlnhw4fa557a8bc510_logo-energy.png",Energy
+rtmp://31.220.0.139/pull/energy35?keys=SgJ1fhTw4OCiIakrc2P4ZQ&keyt=1443276660 swfUrl=http://files.leton.tv/jwplayer.flash.swf live=1 pageUrl=http://leton.tv/
+ 
+#EXTINF:-0 tvg-name="La 1" tvg-logo="23vxieb.png",Factoría de Ficcion
+rtmp://31.220.40.63/pull/fdfin?keys=eVKCz4QhkXjVRrP64JuxEg&keyt=1443471153 swfUrl=http://files.leton.tv/jwplayer.flash.swf live=1 timeout=15 swfVfy=1 pageUrl=http://leton.tv/
+ 
+ 
+ 
+#EXTINF:-0 tvg-name="La 1" tvg-logo="Divinity_3d.png",Divinity
+rtmp://31.220.40.63/pull/divinoti?keys=xZjS_euLrTTEiZpcCcDe4w&keyt=1443471237 swfUrl=http://files.leton.tv/jwplayer.flash.swf live=1 timeout=15 swfVfy=1 pageUrl=http://leton.tv/
+ 
+ 
+#EXTINF:-0 tvg-name="La 1" tvg-logo="tlnovelas.png",Azteca Novelas
+http://201.161.59.6/tlnovelas.isml/QualityLevels(1815000)/manifest(format=m3u8-aapl).m3u8?
+ 
+#EXTINF:-0 tvg-name="La 1" tvg-logo="image001-110x110.png",Non Stop People
+rtmp://31.220.40.63/pull/nonstop9?keys=xZjS_euLrTTEiZpcCcDe4w&keyt=1443471237 swfUrl=http://files.leton.tv/jwplayer.flash.swf live=1 timeout=15 swfVfy=1 pageUrl=http://leton.tv/
+ 
+ 
+#EXTINF:-0 tvg-name="La 1" tvg-logo="canal-decasa.png",Canal Decasa
+rtmp://31.220.0.201/pull/paralacasa?keys=JmFbIw9HVvCeERdE1wMcag&keyt=1443276732 swfUrl=http://files.leton.tv/jwplayer.flash.swf live=1 pageUrl=http://leton.tv/
+ 
+ 
+#EXTINF:-0 tvg-name="La 1" tvg-logo="logo iberalia.png",IBERALIA
+rtmp://31.220.2.53/pull/iberalias?keys=hv7wHG2MMNq2OII1R2UKhw&keyt=1443276773 swfUrl=http://files.leton.tv/jwplayer.flash.swf live=1 pageUrl=http://leton.tv/
+ 
+#EXTINF:-0 tvg-name="La 1" tvg-logo="cazpes.png",CAZA Y PESCA
+rtmp://31.220.40.62/pull/iberalias?keys=0_JhiusUyr5k9omnOAPRog&keyt=1443470275 swfUrl=http://files.leton.tv/jwplayer.flash.swf live=1 timeout=15 swfVfy=1 pageUrl=http://leton.tv/
+ 
+ 
+ 
+#EXTINF:-0 tvg-name="La 1" tvg-logo="logo.png",Discovery Max
+rtmp://31.220.2.54/pull/discomax7?keys=erDZHTkdpzYnFV9lp1KFxA&keyt=1443470397 swfUrl=http://files.leton.tv/jwplayer.flash.swf live=1 timeout=15 swfVfy=1 pageUrl=http://leton.tv/
+ 
+ 
+ 
+#EXTINF:-0 tvg-name="La 1" tvg-logo="a&e.png",AyE
+rtmp://31.220.2.52/pull/aanden?keys=uV6rXMEYI50WiTP7-eq0oQ&keyt=1443470586 swfUrl=http://files.leton.tv/jwplayer.flash.swf live=1 timeout=15 swfVfy=1 pageUrl=http://leton.tv/
+ 
+ 
+ 
+#EXTINF:-0 tvg-name="La 1" tvg-logo="citv.png", Crimen y Investigacion
+rtmp://31.220.2.56/pull/ci5?keys=iqdmtsVCDkx2ktP7IqpKCA&keyt=1443470653 swfUrl=http://files.leton.tv/jwplayer.flash.swf live=1 timeout=15 swfVfy=1 pageUrl=http://leton.tv/
+ 
+ 
+ 
+#EXTINF:-0 tvg-name="La 1" tvg-logo="Canal-Cocina.png",Canal Cocina
+rtmp://93.174.95.87/pull/cocinerita?keys=RKpxhFZIOnOjG7Nuq3YTmw&keyt=1443276840 swfUrl=http://files.leton.tv/jwplayer.flash.swf live=1 pageUrl=http://leton.tv/
+ 
+ 
+#EXTINF:-0 tvg-name="La 1" tvg-logo="40tv.png",40 TV
+rtmp://31.220.0.66/pull/40tv85?keys=6l65oKqskQDiM58v5BNZ-A&keyt=1443472081 swfUrl=http://files.leton.tv/jwplayer.flash.swf live=1 timeout=15 swfVfy=1 pageUrl=http://leton.tv/
+ 
+ 
+ 
+#EXTINF:-0 tvg-name="La 1" tvg-logo="solmus.png",Sol Musica
+rtmp://31.220.0.134/pull/solmusica7?keys=Myv6FEw6MpuMX9VNf7hFXg&keyt=1443472240 swfUrl=http://files.leton.tv/jwplayer.flash.swf live=1 timeout=15 swfVfy=1pageUrl=http://leton.tv/
+ 
+ 
+#EXTINF:-0 tvg-name="La 1" tvg-logo="beins.png" ,Bein n Espana
+rtmp://31.220.40.61/pull/tvbein12?keys=CQ3UnfJWSbEv0gBtIkghiA&keyt=1443272822 swfUrl=http://files.leton.tv/jwplayer.flash.swf live=1 pageUrl=http://leton.tv/
+ 
+ 
+#EXTINF:-0 tvg-name="La 1" tvg-logo="250px-Moto_Gp_logo.svg.png" ,MOTO GP
+rtmp://31.220.0.206/pull/motgepe?keys=CEEpsAyNohpF03XfwT97tw&keyt=1443272493 swfUrl=http://files.leton.tv/jwplayer.flash.swf live=1 pageUrl=http://leton.tv/
+ 
+ 
+#EXTINF:-0 tvg-name="La 1" tvg-logo="barca-tv-en-vivo-online-por-internet" ,Barza tv
+rtmp://31.220.0.206/pull/barztv?keys=CEEpsAyNohpF03XfwT97tw&keyt=1443272493 swfUrl=http://files.leton.tv/jwplayer.flash.swf live=1 pageUrl=http://leton.tv/
+ 
+ 
+#EXTINF:-0 tvg-name="La 1" tvg-logo="http://www.plus.es/recorte/m-NEO/ficha/NEOX.png" group-title="Televisión Digital Terreste",NEOX
+http://antena3-aos1-apple-live.adaptive.level3.net/apple/antena3/channel03/index.m3u8
+ 
+#EXTINF:-0 tvg-name="La 1" tvg-logo="http://www.plus.es/recorte/m-NEO/ficha/ANTV.png" group-title="Televisión Digital Terreste",ANDALUCIA TV
+http://iphone-andaluciatelevision.rtva.stream.flumotion.com/rtva/andaluciatelevision-iphone-multi/main.m3u8
+ 
+#EXTINF:-0 tvg-name="La 1" tvg-logo="http://www.plus.es/recorte/m-NEO/ficha/ENERGY.png" group-title="Televisión Digital Terreste",ENERGY
+http://mdsiosgeo0-lh.akamaihd.net/i/mitele/esmedia_01@175317/index_0_av-b.m3u8
+
