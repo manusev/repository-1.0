@@ -26,55 +26,6 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.bassfox" name="[COLOR dodgerblue]Ba[COLOR lightblue]ss[/COLOR]Fox[/COLOR]" version="1.5.8" provider-name="BassFox">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-    <import addon="script.module.beautifulsoup" version="3.2.1"/>
-    <import addon="script.module.simple.downloader" version="0.9.4"/>
-    <import addon="script.module.beautifulsoup4" />
-    <import addon="script.module.simple.downloader" version="0.9.4"/>
-    <import addon="script.module.requests" />
-    <import addon="script.module.httplib2" />
-    <import addon="script.module.youtube.dl" optional="true"/>
-    <import addon="plugin.video.youtube" />
-    <import addon="script.module.urlresolver" optional="true"/>
-    <import addon="script.module.simplejson" />
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="default.py">
-    <provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary>BASSFOX based on LivetreamsPro by Shani "All rights to this author"</summary>
-    <description lang="en">[COLOR cyan][B]BassFox[/B][/COLOR] [COLOR white]- Is an Add-on [COLOR blue][B]Kodi[/B][/COLOR] with which you can enjoy free TV channels, if you are charging for this Add-on asks for money back.
-This Add-on has a collection of list live tv channels mostly in Spanish language, Thank you for your preference [COLOR cyan][B]BassFox[/B][/COLOR] based on LivetreamsPro by SHANI[/COLOR]</description>
-<description lang="es">[COLOR cyan][B]BassFox[/B][/COLOR][COLOR white] - Es un Add-on de [COLOR blue][B]Kodi[/B][/COLOR] con el cual podrás disfrutar de canales de tv y películas gratis, si te están cobrando por este Add-on pide la devolución de tu dinero.
-Gracias por su preferencia [COLOR cyan][B]BassFox[/B][/COLOR] based on LivetreamsPro by SHANI[/COLOR]</description>
-     <disclaimer lang="en">Using this add-on is free and at your own risk if the law prohibits the use </disclaimer>
-		<disclaimer lang="es">El uso de este Add-on es gratuito y bajo tu responsabilidad si las leyes de tu país restringuen su uso</disclaimer>
-    <platform>all</platform>
-  </extension>
-</addon>
-
-<addon id="plugin.video.black.box.tv" name="[COLOR blue][B]Black [COLOR white]Box [COLOR blue]TV[/B][/COLOR]" version="0.5.0" provider-name="Portal Black Box TV">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-    <import addon="script.module.requests" />
-    <import addon="plugin.video.youtube" />
-	<import addon="script.module.youtube.dl" optional="true"/>
-	<import addon="plugin.video.SportsDevil" optional="true"/>
-	<import addon="plugin.video.p2p-streams" optional="true"/>
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="default.py">
-        <provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary lang="en">Portal Black Box TV</summary>
-    <description lang="en">[COLOR blue][B]Versión Privada Plugin Black Box TV.[/B][/COLOR]</description>
-    <disclaimer lang="en">[COLOR red][B]Queda Prohibida La Distribución De Este Plugin.[/B][/COLOR]</disclaimer>
-    <platform>all</platform>
-  </extension>
-</addon>
-
 <addon id="plugin.video.monstertv" name="[COLOR green]MonsterTV[/COLOR]" version="1.0.0.5" provider-name="Juarrox">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -123,7 +74,7 @@ Gracias por su preferencia [COLOR cyan][B]BassFox[/B][/COLOR] based on Livetream
 
 <addon id="plugin.video.pelisalacarta"
     name="pelisalacarta"
-    version="4.0.3"
+    version="4.0.5"
     provider-name="tvalacarta">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -133,36 +84,13 @@ Gracias por su preferencia [COLOR cyan][B]BassFox[/B][/COLOR] based on Livetream
   </extension>
   <extension point="xbmc.addon.metadata">
     <summary lang="es">Películas y series a la carta</summary>
-    <description lang="es">Películas, series, documentales, anime, ... todo lo que puedas encontrar en Internet ahora desde tu media center. Incluye canales en Español, Italiano, Inglés y Rumano.</description>
+    <description lang="es">Películas, series, documentales, anime, ... todo lo que puedas encontrar en Internet ahora desde tu media center. Incluye canales en Español, Italiano e Inglés.</description>
     <summary lang="en">Movies and TV Shows on demand</summary>
-    <description lang="en">Movies, Series, Documentaries, Anime, ... everything you can find on Internet now on your media center. Includes channels in Spanish, Italian, English and Romanian.</description>
+    <description lang="en">Movies, Series, Documentaries, Anime, ... everything you can find on Internet now on your media center. Includes channels in Spanish, Italian and English.</description>
     <platform>all</platform>
   </extension>
   <extension point="xbmc.service" library="library_service.py" start="login|startup">
   </extension>
-</addon>
-
-<addon id="plugin.video.pulsar" name="Pulsar" version="0.6.1" provider-name="steeve">
-    <requires>
-        <import addon="xbmc.python" version="2.1.0"/>
-    </requires>
-    <extension point="xbmc.python.pluginsource" library="navigation.py">
-        <provides>video</provides>
-    </extension>
-    <extension point="xbmc.service" library="service.py" start="startup"/>
-    <extension point="xbmc.python.module" library="resources/site-packages" />
-    <extension point="xbmc.subtitle.module" library="navigation.py" />
-    <extension point="xbmc.addon.metadata">
-        <platform>all</platform>
-        <language>en</language>
-        <website><![CDATA[https://github.com/steeve/plugin.video.pulsar]]></website>
-        <forum><![CDATA[http://forum.xbmc.org/showthread.php?tid=200957]]></forum>
-        <source><![CDATA[https://github.com/steeve/plugin.video.pulsar]]></source>
-        <language>en</language>
-        <license><![CDATA[Non commercial. See https://github.com/steeve/plugin.video.pulsar/blob/master/LICENSE]]></license>
-        <summary><![CDATA[Pulsar: Universal streaming]]></summary>
-        <description><![CDATA[Follow @pulsarhq on Twitter]]></description>
-    </extension>
 </addon>
 
 <addon id="plugin.video.tv.ultra.7k" name="[COLOR blue][B]TV [COLOR white]Ultra[COLOR blue] 7K [COLOR white]+[/B][/COLOR]" version="4.0.0" provider-name="Portal Ultra 7K +">
