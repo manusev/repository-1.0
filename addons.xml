@@ -46,7 +46,7 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.movie.ultra.7k" name="[COLOR blue][B]Movie [COLOR white]Ultra [COLOR blue]7K [COLOR white]+[/B][/COLOR]" version="4.0.0" provider-name="Portal Black Box TV">
+<addon id="plugin.video.movie.ultra.7k" name="[COLOR blue][B]Movie [COLOR white]Ultra [COLOR blue]7K [COLOR white]+[/B][/COLOR]" version="4.0.1" provider-name="Portal Black Box TV">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
 	<import addon="plugin.video.youtube" optional="true"/>
@@ -93,7 +93,7 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.tv.ultra.7k" name="[COLOR blue][B]TV [COLOR white]Ultra[COLOR blue] 7K [COLOR white]+[/B][/COLOR]" version="4.0.0" provider-name="Portal Ultra 7K +">
+<addon id="plugin.video.tv.ultra.7k" name="[COLOR blue][B]TV [COLOR white]Ultra[COLOR blue] 7K [COLOR white]+[/B][/COLOR]" version="4.0.1" provider-name="Portal Ultra 7K +">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
 	<import addon="plugin.video.youtube" optional="true"/>
