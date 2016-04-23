@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.video.movie.ultra.7k" name="[COLOR blue][B]Movie [COLOR white]Ultra[COLOR blue] 7K [COLOR white]+[/B][/COLOR]" version="4.0.5" provider-name="Portal Ultra 7K +">
+<addon id="plugin.video.movie.ultra.7k" name="[COLOR blue][B]Movie [COLOR white]Ultra[COLOR blue] 7K [COLOR white]+[/B][/COLOR]" version="4.0.6" provider-name="Portal Ultra 7K +">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
 	<import addon="plugin.video.youtube" optional="true"/>		
@@ -21,8 +21,8 @@
   </extension>
   <extension point="xbmc.addon.metadata">
      <summary lang="en">Portal Ultra 7K +</summary>
-    <description lang="en">[COLOR blue][B]Versión Privada Plugin Movie Ultra 7K +.[/B][/COLOR]</description>
-    <disclaimer lang="en">[COLOR red][B]Queda Prohibida La Distribución De Este Plugin.[/B][/COLOR]</disclaimer>
+    <description lang="en">[COLOR blue][B]Version Privada Plugin Movie Ultra 7K +.[/B][/COLOR]</description>
+    <disclaimer lang="en">[COLOR red][B]Queda Prohibida La Distribucion De Este Plugin.[/B][/COLOR]</disclaimer>
     <platform>all</platform>
   </extension>
 </addon>

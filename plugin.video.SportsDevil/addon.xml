@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addon
   id="plugin.video.SportsDevil"
-  version="200000-5.0.0.1"
-  name="SportsDevil"
-  provider-name="MaxMustermann">
+  version="4.0.0.6"
+  name="Sportdevil PM"
+  provider-name="[COLOR blue]MaxMustermann, Exclusivex PM,[/COLOR]">
   <requires>
    <import addon="xbmc.python" version="2.14.0"/>
    <import addon="script.module.requests" />
+   <import addon="script.module.livestreamer" />
+   <import addon="script.module.pydevd" optional="true"/>
   </requires>
   <extension 
     point="xbmc.python.pluginsource"
@@ -14,8 +16,9 @@
    <provides>video</provides>
   </extension>
   <extension point="xbmc.addon.metadata">
-    <summary>Play videos of different sports streaming sites</summary>
-    <description>Play videos of different Channels streaming sites Updated DMO: 03/02/2016 (from HUBBA3´s Version 01/02/2016)... +Info in Change Log - +Info en Registro de Cambios (Gracias Goldonx, Quequeq, Nano y JxxxxxX!!)... Soporte para p2p con Plugin p2p-Streams</description>
+    <summary>Portal Mixto</summary>
+    <description>Plugin Modificado por el grupo Exclusivex PM, para el funcionamiento de los canales.Fecha de Actualizacion : 21-04-2016</description>
+	<description>Fecha de Actualizacion : 21-04-2016</description>
     <platform>all</platform>
   </extension>
 </addon>
