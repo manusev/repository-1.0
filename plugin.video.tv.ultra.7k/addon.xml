@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.video.tv.ultra.7k" name="[COLOR blue][B]TV [COLOR white]Ultra[COLOR blue] 7K [COLOR white]+[/B][/COLOR]" version="5.0.0" provider-name="Portal Ultra 7K +">
+<addon id="plugin.video.tv.ultra.7k" name="[COLOR blue][B]TV [COLOR white]Ultra[COLOR blue] 7K [COLOR white]+[/B][/COLOR]" version="5.1.0" provider-name="Portal Mixto">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
 	<import addon="plugin.video.youtube" optional="true"/>		
@@ -20,9 +20,9 @@
         <provides>video</provides>
   </extension>
   <extension point="xbmc.addon.metadata">
-     <summary lang="en">Portal Ultra 7K +</summary>
-    <description lang="en">[COLOR blue][B]Versión Privada Plugin TV Ultra 7K +.[/B][/COLOR]</description>
-    <disclaimer lang="en">[COLOR red][B].[/B][/COLOR]</disclaimer>
+     <summary lang="en">Portal Mixto</summary>
+    <description lang="en">[COLOR blue][B]Version Privada Plugin TV Ultra 7K +.[/B][/COLOR]</description>
+    <disclaimer lang="en">[COLOR red][B]Queda Prohibida La Distribucion De Este Plugin.[/B][/COLOR]</disclaimer>
     <platform>all</platform>
   </extension>
 </addon>
