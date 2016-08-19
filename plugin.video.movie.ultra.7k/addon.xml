@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.video.movie.ultra.7k" name="[COLOR blue][B]Movie [COLOR white]Ultra[COLOR blue] 7K [COLOR white]+[/B][/COLOR]" version="5.1.0" provider-name="Portal Mixto">
+<addon id="plugin.video.movie.ultra.7k" name="[COLOR blue][B]Movie [COLOR white]Ultra[COLOR blue] 7K [COLOR white]+[/B][/COLOR]" version="5.2.1" provider-name="Pta Mo">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
 	<import addon="plugin.video.youtube" optional="true"/>		
