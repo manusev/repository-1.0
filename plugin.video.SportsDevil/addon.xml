@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon
+  id="plugin.video.SportsDevil"
+  version="[COLOR blue]4.0.2.0[/COLOR]"
+  name="Sportdevil"
+  provider-name="[COLOR blue]MaxMustermann, Exclusiv,[/COLOR]">
+  <requires>
+   <import addon="xbmc.python" version="2.15.0"/>
+   <import addon="script.module.requests" />
+   <import addon="script.module.livestreamer" />
+   <import addon="script.module.pydevd" optional="true"/>
+  </requires>
+  <extension 
+    point="xbmc.python.pluginsource"
+    library="default.py">
+   <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>Portal Mixto</summary>
+    <description>Plugin Modificado por manu, para el funcionamiento de los canales.Fecha de Actualizacion : 24-08-2016</description>
+	<description>Fecha de Actualizacion : 24-08-2016</description>
+    <platform>all</platform>
+  </extension>
+</addon>
