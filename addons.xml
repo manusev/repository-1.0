@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-<addon id="plugin.video.monstertv" name="[COLOR ff00ee99]MonsterTV[/COLOR]" version="2.1.0.0" provider-name="Onyx">
+<addon id="plugin.video.monstertv" name="[COLOR ff00ee99]MonsterTV[/COLOR]" version="2.2.0.0" provider-name="Onyx">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
 	<import addon="plugin.video.youtube" optional="true"/>
@@ -30,8 +30,9 @@
   <extension point="xbmc.addon.metadata">
   <summary lang="en">[COLOR ff00ee99]MonsterTV[/COLOR]</summary>
     <description lang="en">[COLOR red][B][COLOR ff00ee99]MonsterTV[/COLOR][/B][/COLOR] ESTE ADDON ES SOLO UNA MODIFICACION DE PALCO TV TODOS LOS MERITO SON PARA SU CREADOR Juarrox AL CUAL AGRADECEMOS TODO SU EFUERZO EN CREAR PALCO TV </description>
-    <disclaimer lang="en">[B]Queda prohibida la distribucion de este addon junto con contenidos multimedia protegidos por derechos de autor.[/B] La vulneracion de esta prohibicion exonerara de culpa a su autor siendo el unico responsable quien lo haya distribuido ilegalmente.</disclaimer>
+    <disclaimer lang="en">[B]Queda prohibida la distribución de este addon junto con contenidos multimedia protegidos por derechos de autor.[/B] La vulneración de esta prohibición exonerará de culpa a su autor siendo el único responsable quien lo haya distribuido ilegalmente.</disclaimer>
     <platform>all</platform>
+    <source></source>
   </extension>
 </addon>
 
